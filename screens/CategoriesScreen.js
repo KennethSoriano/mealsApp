@@ -4,12 +4,12 @@ import { CATEGORIES } from "../data/dummy-data";
 import CategoryGridTile from "../components/CategoryGridTile";
 
 
-
-
 function CategoriesScreen({navigation}) {
     function renderCategoryItem(item) {
         function pressHandler() {
-            navigation.navigate('MealsOverview');
+            navigation.navigate('MealsOverview', {
+                categoryID: itemData.item.id,
+            });
         }
     
         return (
