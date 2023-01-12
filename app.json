@@ -3,6 +3,7 @@
     "name": "mealsApp",
     "slug": "mealsApp",
     "version": "1.0.0",
+    "backgroundColor": "#24180f",
     "assetBundlePatterns": [
       "**/*"
     ]
