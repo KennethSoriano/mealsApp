@@ -3,7 +3,7 @@ import { useNavigation } from "@react-navigation/native";
 
 import MealDetails from "./MealDetails";
 
-function MealItem({ id, title, imageUrl, duration, complexity, affordability, navigation, route}){
+function MealItem({ id, title, imageUrl, duration, complexity, affordability, navigation}){
     const navigation = useNavigation();
 
     function selectMealItemHandler() {

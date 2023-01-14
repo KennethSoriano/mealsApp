@@ -12,8 +12,6 @@ function MealDetailScreen({route, navigation}) {
 
     const selectedMeal = MEALS.find((meal) => meal.id === mealId);
 
-    const navigation = useNavigation();
-
     function headerButtonPressHandler() {
         console.log('hi')
     }
